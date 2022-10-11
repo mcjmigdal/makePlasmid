@@ -13,5 +13,5 @@ makePlasmid.sh -1 first.read.fastq.gz -2 second.read.fastq.gz -o out.dir.name [-
 ##  MAINTAINANCE
 ```
 cd src
-docker build -t makeplasmid .
+docker build -t mcjmigdal/makeplasmid .
 ```

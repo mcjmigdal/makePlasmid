@@ -6,7 +6,7 @@
 USAGE="makePlasmid.sh -1 first.read.fastq.gz -2 second.read.fastq.gz -o out.dir.name [-a AGATCGGAAGAG] [-A AGATCGGAAGAG]
 !!!use relative paths to input files!!!"
 
-while getopts ":1:2:o" opt; do
+while getopts ":1:2:o:a:A:" opt; do
  case $opt in
    1) R1="$OPTARG"
    ;;
